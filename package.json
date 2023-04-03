@@ -1,0 +1,13 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "Primer tp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "EJ1": "node EJ1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guido Schulman y Bautista Larrain",
+  "license": "ISC"
+}
