@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "EJ1": "node EJ1.js",
+    "EJ2": "node EJ2.js",
+    "EJ3": "node EJ3.js",
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guido Schulman y Bautista Larrain",
