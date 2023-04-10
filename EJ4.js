@@ -1,11 +1,10 @@
 import fs from 'fs';
-const entradaInvalida = "./entradaInvalida.txt";
+const entradaInvalida = null;
 const entrada = "./entrada.txt";
 const salida = "./salida.txt";
 
-/*
-function copiarArchivo(){
-    console.log("copiar");
-    copiar(entrada, salida);
-}
-*/
+
+fs.rename(entrada, salida, function (err) {
+    if (err) throw err;
+    console.log('File Renamed.');
+  });
